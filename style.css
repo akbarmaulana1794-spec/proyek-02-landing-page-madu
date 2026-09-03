@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+} 
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333333;
+  background-color: #fdf8f0;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px 0px;
+  background-color: #3d2817;
+  color: #fff;
+}
+
+.btn-cta {
+  display: inline-block;
+  padding: 12px 28px;
+  background-color: #d4a017;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+.flex-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.keunggulan-item,
+.testimoni-card,
+.langkah-item {
+  flex: 1;
+  min-width: 220px;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.keunggulan-angka {
+  font-size: 28px;
+  font-weight: bold;
+  color: #d4a017;
+}
+
+.produk-card {
+  flex: 1;
+  min-width: 200px;
+  background-color: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.harga {
+  font-size: 22px;
+  font-weight: bold;
+  color: #d4a017;
+  margin: 8px 0 16px;
+}
+
+.btn-cta-kecil {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d4a017;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.btn-cta:hover {
+  background-color: #b8860b;
+}
+
+.btn-cta-kecil:hover {
+  background-color: #b8860b;
+}
+
+.testimoni-teks {
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.testimoni-nama {
+  font-weight: 500;
+  color: #666666;
+}
+
+.langkah-angka {
+  font-size: 28px;
+  font-weight: bold;
+  color: #d4a017;
+}
+
+.footer {
+  background-color: #3d2817;
+  color: #fff;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer .copyright {
+  font-size: 13px;
+  margin-top: 12px;
+  color: #cccccc;
+}
+
+.section {
+  padding: 80px 0;
+}
