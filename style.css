@@ -125,3 +125,45 @@ body {
 .section {
   padding: 80px 0;
 }
+
+/* ================================
+   RESPONSIVE - HP & Tablet
+   ================================ */
+
+@media (max-width: 768px) {
+
+  /* Hero lebih compact di HP */
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  /* Kartu keunggulan turun ke bawah satu-satu */
+  .keunggulan-list {
+    flex-direction: column;
+  }
+
+  /* Kartu produk turun ke bawah satu-satu */
+  .produk-list {
+    flex-direction: column;
+  }
+
+  /* Testimoni turun ke bawah satu-satu */
+  .testimoni-list {
+    flex-direction: column;
+  }
+
+  /* Langkah cara pesan turun ke bawah */
+  .langkah-list {
+    flex-direction: column;
+  }
+
+  /* Container lebih rapat di HP */
+  .container {
+    padding: 0 16px;
+  }
+
+}
