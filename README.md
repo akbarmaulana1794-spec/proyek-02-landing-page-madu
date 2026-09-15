@@ -1,5 +1,6 @@
 # Landing Page - Madu Hutan Sumbawa
 
+🌐 **Live demo:** [Lihat website](https://akbarmaulana1794-spec.github.io/proyek-02-landing-page-madu/)
 Landing page untuk UMKM Lokal penjual madu hutan asli dari sumbawa, NTB. Dibangun sebagai simulasi proyek klien nyata dengan fokus mengarahkan pengunjung memesan langsung lewat WhatsApp.
 
 ## Fitur
